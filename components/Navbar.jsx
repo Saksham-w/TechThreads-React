@@ -19,12 +19,12 @@ export default function Navbar({ isDark, setIsDark }) {
         >
           {isDark ? (
             <i
-              class="ri-sun-fill"
+              className="ri-sun-fill"
               style={{ fontSize: '25px', marginRight: '20px' }}
             ></i>
           ) : (
             <i
-              class="ri-moon-fill"
+              className="ri-moon-fill"
               style={{ fontSize: '25px', marginRight: '20px' }}
             ></i>
           )}
