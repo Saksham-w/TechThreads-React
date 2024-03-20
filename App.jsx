@@ -7,7 +7,6 @@ export default function App() {
   const [isDark, setIsDark] = useState(
     JSON.parse(localStorage.getItem('isDark')) || false
   )
-  console.log('isDark: ', isDark)
   return (
     <>
       <Navbar isDark={isDark} setIsDark={setIsDark} />
