@@ -23,7 +23,7 @@ export default function Home() {
       })
   }, [])
   return (
-    <main className={isDark ? 'dark' : ''}>
+    <main className={`${isDark ? 'dark' : ''}`}>
       <div id="mainCont">
         <Pagination
           page={page}

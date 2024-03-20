@@ -8,7 +8,7 @@ export default function App() {
   return (
     <>
       <Navbar isDark={isDark} setIsDark={setIsDark} />
-      <Outlet context ={[isDark,setIsDark]} />
+      <Outlet context ={[isDark]} />
     </>
   );
 }
